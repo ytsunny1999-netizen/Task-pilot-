@@ -14,7 +14,7 @@ jobs:
       - name: Extract project
         run: |
           mkdir project
-          unzip -q TaskPilot-TaskPilot-Automation-v2.zip -d project
+          unzip -TaskPilot-Automation-v2.zip -d project
 
       - name: Setup Java
         uses: actions/setup-java@v4
